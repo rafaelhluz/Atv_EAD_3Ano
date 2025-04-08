@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o Contato de usuários</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap">
+    <link rel="icon" href="../imgs/cafe.png" type="image/png">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<style>
+     /* Media Queries para telas menores */
+     @media (max-width: 1024px) {
+            .container {
+                width: 80%;
+            }
+
+            h1, h2 {
+                font-size: 1.8rem;
+            }
+
+            label {
+                font-size: 12px;
+            }
+
+            input, textarea {
+                padding: 8px;
+            }
+
+            button, li {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 30px;
+            }
+
+            h1, h2 {
+                font-size: 1.6rem;
+            }
+
+            input, textarea {
+                padding: 8px;
+            }
+
+            button, li {
+                padding: 8px 15px;
+            }
+
+            .navigateBtn {
+                font-size: 14px;
+                margin-bottom: 20px; /* Espaço adicional abaixo do botão */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                width: 95%;
+                padding: 20px;
+            }
+
+            h1, h2 {
+                font-size: 1.4rem;
+            }
+
+            input, textarea {
+                padding: 6px;
+            }
+
+            button, li {
+                padding: 6px 12px;
+                font-size: 14px;
+            }
+
+            button {
+                margin-top: 10rem;
+            }
+
+            .navigateBtn {
+                font-size: 14px;
+                margin-bottom: 20px; /* Ajuste para visibilidade do botão */
+            }
+        }
+</style>
+
+<body>
+
+    
+    <section class="container">
+            <button class="navigateBtn" id="navigateBtn" >Ir para Cadastro de Usuários</button>  
+            <h2 class="emoji">Bem-vindo à nossa plataforma! 🚀</h2>
+            <p>Somos uma equipe dedicada ao desenvolvimento de soluções tecnológicas eficientes, organizadas e sustentáveis.</p>
+            <p>Nosso objetivo é transformar códigos legados em projetos modernos, seguindo as melhores práticas de desenvolvimento web.</p>
+        
+            <h2 class="emoji">💡 O que fazemos?</h2>
+            <ul>
+                <li class="emoji">✅ Melhoramos a estrutura e organização do código</li>
+                <li class="emoji">✅ Aplicamos boas práticas de acessibilidade e usabilidade</li>
+                <li class="emoji">✅ Implementamos padrões modernos de UI/UX</li>
+                <li class="emoji">✅ Garantimos a eficiência e escalabilidade do projeto</li>
+            </ul>
+        
+        
+            <h2 class="emoji">🌟 Nosso Compromisso</h2>
+            <p>Nosso compromisso é oferecer um ambiente digital mais intuitivo, responsivo e seguro para todos os usuários.</p>
+            <p>Junte-se a nós nessa jornada e explore as melhorias que estamos implementando! ✨</p>
+            
+    </section>
+    
+
+    <script>
+        document.getElementById("navigateBtn").addEventListener("click", function() {
+            window.location.href = "../index.html";  // Redireciona para 'index.html' ao clicar no botão
+        });
+    </script>
+</body>
+</html>
